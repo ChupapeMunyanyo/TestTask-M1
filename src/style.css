@@ -1,0 +1,19 @@
+.user_tsx{
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 1px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.strongID{
+    padding-left: 30px;
+}
+.search{
+    & input{
+        width: 300px;
+        height: 25px;
+        border-radius: 30px;
+        border: 2px solid black;
+        padding-left: 10px;
+    }
+}
